@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Avenir';
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    height: 100%;
+}
+
+section.c1 {
+    background-color: #FA684D;
+}
+
+section.c2{
+    background-color: #41883C;
+}
+
+section.c3{
+    background-color:#234C74
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 4em 2em;
+}
+
+form.search{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-family: 'Avenir';
+    font-size: 2em;
+    height: 2em;
+    padding-right: 67px;
+    width: calc(100% - 67px);
+    border-bottom: 1px solid #fff;
+    opacity: .4;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #ffffff;
+    font-family: 'Avenir';
+    font-size: 1em;
+} 
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button { 
+    padding:0;
+    text-indent: -9999px;
+    display: inline-block;
+    font-size: 2em;
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border: none;
+    background: url(../img/search.png) 50% 60% no-repeat;
+    background-size: 50%;
+    opacity: .4;
+}
+
+ul.weather-info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.weather-info{
+    padding: 2em 0;
+    margin: 0;
+}
+
+ul.weather-info li{
+    color: #fff;
+    font-size: 4em;
+    margin: 0;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+#city.c1 {
+    color: #FFD8D1;
+}
+
+#city.c2 {
+    color : #ffffff;
+}
+
+#city.c3 {
+    color : #F4F5DF;
+}
+
+#nation.c1 {
+    color: #4B80BE;
+}
+
+#nation.c2 {
+    color: #BBDEB9;
+}
+
+#nation.c3 {
+    color: #C35151;
+}
+
+#world-time.c1 {
+    color: #FFCC5A;
+}
+
+#world-time.c2 {
+    color: #FFAA46;
+}
+
+#world-time.c3 {
+    color: #68D8CB;
+}
+
+#summary.c1 {
+    color: #ffffff;
+}
+
+#summary.c2 {
+    color: #F7D2D2;
+}
+
+#summary.c3 {
+    color: #FAFF83;
+}
+
+#temperature.c1 {
+    color: #8FC1DB;
+}
+
+#temperature.c2 {
+    color: #B0D5E8;
+}
+
+#temperature.c3 {
+    color: #FFE5FD;
+}
