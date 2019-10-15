@@ -1,22 +1,27 @@
 {
-    "name": "web-server",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "node src/app.js",
-      "dev": "nodemon src/app.js -e js,hbs"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "hbs": "^4.0.4",
-      "request": "^2.88.0"
-    },
-    "devDependencies": {
-      "nodemon": "^1.19.1"
-    }
-  }
-  
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsuzie/weather-app-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsuzie/weather-app-node/issues"
+  },
+  "homepage": "https://github.com/iamsuzie/weather-app-node#readme"
+}
