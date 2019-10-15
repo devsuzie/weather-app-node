@@ -27,6 +27,7 @@ section.c3{
 
 .container {
     max-width: 750px;
+    height: calc(100% - 8em);
     margin: 0 auto;
     padding: 4em 2em;
 }
@@ -80,12 +81,11 @@ button {
 ul.weather-info{
     list-style: none;
     margin: 0;
+    margin-top: 2em;
     padding: 0;
-}
-
-ul.weather-info{
-    padding: 2em 0;
-    margin: 0;
+    height: calc(100% - 4em);
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 ul.weather-info li{
@@ -94,6 +94,7 @@ ul.weather-info li{
     margin: 0;
     line-height: 1.6em;
     font-weight: bold;
+    word-break: keep-all;
 }
 
 #city.c1 {
@@ -154,4 +155,17 @@ ul.weather-info li{
 
 #temperature.c3 {
     color: #FFE5FD;
+}
+
+@media (max-width: 500px){
+
+    .container {
+        padding: 2em;
+        max-width: inherit;
+        width: calc(100% - 4em);
+    }
+
+    html{
+        font-size: 80%;
+    }
 }
