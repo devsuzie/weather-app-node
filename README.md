@@ -12,18 +12,18 @@
 - World time information
 - Forecast information
 
-## Javascript Template Engine
+## :man: Javascript Template Engine
 - [handlebars](https://handlebarsjs.com/)
 
-## :open_file_folder: API
+## :globe_with_meridians: API
 - [map box](https://docs.mapbox.com/api/)
 - [dark sky](https://darksky.net/dev)
 - [world time api](http://worldtimeapi.org/)
 
-## :: npm
+## :open_file_folder: npm
 - [Express](https://www.npmjs.com/package/express)
 - [Request](https://www.npmjs.com/package/request)
 
-## deploy
+## :rocket: deploy
 - [Heroku](https://dashboard.heroku.com/)
 
