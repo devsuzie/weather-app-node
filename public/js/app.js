@@ -10,15 +10,15 @@ const temperature = document.querySelector('#temperature')
 const changeBackground = () => {
     const list = [section, city, nation, worldTime, summary, temperature]
     for(let i=0; i<list.length; i++) {
-        if(list[i].classList.contains('c1')){
-            list[i].classList.remove('c1')
+        if(list[i].classList.contains('c3')){
+            list[i].classList.remove('c3')
             list[i].classList.add('c2')
         } else if(list[i].classList.contains('c2')){
             list[i].classList.remove('c2')
-            list[i].classList.add('c3')
-        } else{
-            list[i].classList.remove('c3')
             list[i].classList.add('c1')
+        } else{
+            list[i].classList.remove('c1')
+            list[i].classList.add('c3')
         }
     }
 }
